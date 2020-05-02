@@ -1,5 +1,5 @@
 {
-  "name": "command-linne-tools",
+  "name": "command-line-tools",
   "version": "1.0.0",
   "description": "A command line tool made up with Node",
   "main": "index.js",
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/Mike240892/Node-JS-Command-Line-Tools#readme",
   "bin": {
     "nls": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0"
   }
 }
